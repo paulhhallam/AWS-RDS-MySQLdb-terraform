@@ -1,7 +1,5 @@
 # AWS-RDS-MySQLdb-terraform
-AWS simple RDS MySQL DB using terraform
-
-These scripts will create a MySQL RDS database on a new VPC using terraform.
+A simple terraform script to create an AWS RDS MySQL DB on a new VPC created for the database.
 
 My biggest hassle in the old days was creting an RDS database NOT on the default VPC.
 It took me some time to work out the intricacies of this and I'm only sorry it's taken me so long to record it.
