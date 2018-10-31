@@ -36,9 +36,16 @@ where <location and name of your secrets file>.auto.tfvars contents are similar 
   secret_key = "<your AWS secret key>"
 
 FILES:
+
  	provider.tf   Defines the provider (AWS) and creates an EC2 instance
+	
 	rds.tf        Creates the RDS MySQL database
+	
 	secret.tf     Defines the variables for the access and sceret keys.
+	
 	sg.tf         Creates the security group allowing ALL access on all ports (dangerous).
+	
 	vars.tf       Defines the AMI's (Amazon Machine Image) and instance type to use as well as the RDS db password.
+	
 	vpc.tf        Creates the VPC, subnets, subnet group, route table and its associations and a network access control
+	
