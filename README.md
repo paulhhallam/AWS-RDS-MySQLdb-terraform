@@ -1,7 +1,7 @@
 # AWS-RDS-MySQLdb-terraform
 A simple terraform script to create an AWS RDS MySQL DB on a new VPC specifically created for the database.
 
-This simple setup just creates an EC2 instance and an RDS MySql database.
+This simple setup just creates an RDS MySql database and an EC2 instance.
 
 I'd suggest downloading MySQL Workbench onto your PC and attempting to connect to the database using:
 endpoint as shown on the RDS instance page, e.g. moluccan2.cffnmgekx1nd.us-east-2.rds.amazonaws.com
