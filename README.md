@@ -19,6 +19,9 @@ terraform apply -var-file="<location and name of your secrets file>.auto.tfvars"
 terraform delete -var-file="<location and name of your secrets file>.auto.tfvars"
 
 where <location and name of your secrets file>.auto.tfvars contents are similar to the following:
-#MySecretKeys.auto.tfvars
-access_key = "<your AWS access key"
-secret_key = "<your AWS secret key>"
+  
+  #MySecretKeys.auto.tfvars
+  
+  access_key = "<your AWS access key"
+  
+  secret_key = "<your AWS secret key>"
