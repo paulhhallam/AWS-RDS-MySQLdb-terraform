@@ -11,7 +11,7 @@ I'd suggest downloading MySQL Workbench onto your PC and attempting to connect t
 	password Password
 
 
-My biggest hassle in the old days was creting an RDS database NOT on the default VPC.
+My biggest hassle in the old days was creating an RDS database NOT on the default VPC.
 It took me some time to work out the intricacies of this and I'm only sorry it's taken me so long to record it.
 
 For simplicity I have hardcoded certain values but these can obviously be changed to secrets, 
