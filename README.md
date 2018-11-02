@@ -17,16 +17,16 @@ It took me some time to work out the intricacies of this and I'm only sorry it's
 For simplicity I have hardcoded certain values but these can obviously be changed to secrets, 
 environment variables or entered on the terraform command lines.
 
-The MySQL db user is hardcoded in rds.tf
-The MySQL db user password is hardcoded in vars.tf 
+	The MySQL db user is hardcoded in rds.tf
+	The MySQL db user password is hardcoded in vars.tf 
 
 If you use these scripts please remember to change these values.
 
 The terraform commands to run the scripts are:
 
-terraform init -var-file="<location and name of your secrets file>.auto.tfvars"
-terraform apply -var-file="<location and name of your secrets file>.auto.tfvars"
-terraform delete -var-file="<location and name of your secrets file>.auto.tfvars"
+	terraform init -var-file="<location and name of your secrets file>.auto.tfvars"
+	terraform apply -var-file="<location and name of your secrets file>.auto.tfvars"
+	terraform delete -var-file="<location and name of your secrets file>.auto.tfvars"
 
 where <location and name of your secrets file>.auto.tfvars contents are similar to the following:
   
