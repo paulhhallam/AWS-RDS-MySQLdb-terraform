@@ -7,7 +7,7 @@ I'd suggest downloading MySQL Workbench onto your PC and attempting to connect t
 
 	endpoint as shown on the RDS instance page, e.g. moluccan2.cffnmgekx1nd.us-east-2.rds.amazonaws.com
 	port 36
-	username phh 
+	username meme 
 	password Password
 
 

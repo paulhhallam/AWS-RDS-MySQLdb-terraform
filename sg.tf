@@ -1,7 +1,7 @@
-resource "aws_security_group" "moluccan2" {
-  name = "moluccan2"
+resource "aws_security_group" "instance2" {
+  name = "instance2"
   description = "RDS db servers (terraform-managed)"
-  vpc_id = "${aws_vpc.moluccan2.id}"
+  vpc_id = "${aws_vpc.instance2.id}"
   ingress {
     from_port = 0
     to_port = 0
@@ -18,7 +18,7 @@ resource "aws_security_group" "moluccan2" {
   }
 
   tags { 
-    Name = "moluccan2"
+    Name = "instance2"
   }
 }
 
