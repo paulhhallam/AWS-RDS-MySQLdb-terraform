@@ -20,4 +20,18 @@ resource "aws_db_instance" "instance2" {
     Name = "instance2"
   }
 }
-
+output "EndPoint" {
+value = "${aws_db_instance.instance2.endpoint}"
+}
+output "Identifier" {
+value = "${aws_db_instance.instance2.identifier}"
+}
+output "DB_Name" {
+value = "${aws_db_instance.instance2.name}"
+}
+output "Port" {
+value = "${aws_db_instance.instance2.port}"
+}
+output "MasterUsername" {
+value = "${aws_db_instance.instance2.username}"
+} 
